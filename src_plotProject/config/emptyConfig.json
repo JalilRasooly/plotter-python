@@ -1,0 +1,57 @@
+{
+    "3D": {
+        "f": "",
+        "graphtype": "surface",
+        "properties": {
+            "xyMin": "",
+            "xyMax": "",
+            "xLabel": "",
+            "yLabel": "",
+            "zLabel": "",
+            "title": ""
+        }
+    },
+    "2D": {
+        "g_properties": {
+            "xStep": "",
+            "xMin": "",
+            "xMax": "",
+            "xLabel": "",
+            "yLabel": "",
+            "title": "",
+            "grid": false,
+            "log": false,
+            "legend": false
+        },
+        "i_properties": {
+            "f1": {
+                "f": "",
+                "legendname": "sin",
+                "color": "g",
+                "linestyle": "solid",
+                "linewidth": "2"
+            },
+            "f2": {
+                "f": "",
+                "legendname": "cos",
+                "color": "b",
+                "linestyle": "dotted",
+                "linewidth": "2"
+            },
+            "f3": {
+                "f": "exp(-x)",
+                "legendname": "e",
+                "color": "r",
+                "linestyle": "dashed",
+                "linewidth": "2"
+            },
+            "f4": {
+                "f": "0.5*(x-6)",
+                "legendname": "linear",
+                "color": "y",
+                "linestyle": "solid",
+                "linewidth": "2"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "3D": {
+        "f": "sin(sqrt(x**2+y**2))",
+        "graphtype": "surface",
+        "properties": {
+            "xyMin": -10,
+            "xyMax": 10,
+            "xLabel": "x",
+            "yLabel": "y",
+            "zLabel": "z",
+            "title": "Demo 3D Function"
+        }
+    },
+    "2D": {
+        "g_properties": {
+            "xStep": 0.01,
+            "xMin": 0,
+            "xMax": 10,
+            "xLabel": "x",
+            "yLabel": "y",
+            "title": "Demo Default 2D Functions",
+            "grid": true,
+            "log": false,
+            "legend": true
+        },
+        "i_properties": {
+            "f1": {
+                "f": "2*sin(x)",
+                "legendname": "sin",
+                "color": "g",
+                "linestyle": "solid",
+                "linewidth": "2"
+            },
+            "f2": {
+                "f": "2*cos(x)",
+                "legendname": "cos",
+                "color": "b",
+                "linestyle": "dotted",
+                "linewidth": "2"
+            },
+            "f3": {
+                "f": "exp(-x)",
+                "legendname": "e",
+                "color": "r",
+                "linestyle": "dashed",
+                "linewidth": "2"
+            },
+            "f4": {
+                "f": "0.5*(x-6)",
+                "legendname": "linear",
+                "color": "y",
+                "linestyle": "solid",
+                "linewidth": "2"
+            }
+        }
+    }
+}
